@@ -225,7 +225,7 @@
 //     }
 // }
 
-//======Matrices escalonadas Ejercicio======
+//======Matrices escalonadas Ejercicio=======================================================================
 
 // byte numAlumnos, salones;
 // double promedio, sumaAlumnos = 0, sumaCalif = 0, califMin = 10, califMax = 0;
@@ -302,24 +302,74 @@
 //  Console.WriteLine($"La calificaicón mínima es: {califMin}");
 //  Console.WriteLine($"La calificación máxima es: {califMax}");
 
+//
+// double[,] ventas2D = new double[4, 3]
+// {
+//     { 100, 120, 205 },
+//     { 115, 196, 300 },
+//     { 157, 172, 245 },
+//     { 130, 180, 281 }
+// };
+//
+// //Mostramos el tamaño de la primera dimensión
+// Console.WriteLine(ventas2D.GetLength(1));
+//
+// for (var i = 0; i < ventas2D.GetLength(1); i++)
+// {
+//     Console.WriteLine($"Flia {i}");
+//
+//     for (var j = 0; j < ventas2D.GetLength(1); j++)
+//     {
+//         Console.WriteLine(ventas2D[i, j]);
+//     }
+// }
 
-double[,] ventas2D = new double[4, 3]
+
+//======Matrices como parametro=================================================================
+
+// int[] matriz = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+//
+// //Invocamos el metodo
+// // ImprimirMatriz(matriz);
+//
+// //Matriz multidimensional
+// double[,] matriz2D =
+// {
+//     { 1, 2 },
+//     { 3, 4 }
+// };
+//
+// ImprimirMatrizMulti(matriz2D);
+//
+// //Metodo que imprime los valores de la matriz
+// static void ImprimirMatriz(int[] matriz)
+// {
+//     for (var i = 0; i < matriz.Length; i++)
+//     {
+//         Console.WriteLine(matriz[i]);
+//     }
+// }
+//
+// //Metodo que imprime los valores de la matriz multi
+// static void ImprimirMatrizMulti(double[,] matriz2D)
+// {
+//     for (var i = 0; i < matriz2D.GetLength(0); i++)
+//     {
+//         for (var j = 0; j < matriz2D.GetLength(1); j++)
+//         {
+//             Console.WriteLine(matriz2D[i, j]);
+//         }
+//     }
+// }
+
+//======Matrices con asignacion implicita de tipos=================================================================
+
+var matriz = new[] { "Sandra", "Luis" };
+var matriz2D = new[,] { { 1, 2 }, { 3, 4 } };
+
+//Matriz escalonada
+var matrizJagged = new[]
 {
-    { 100, 120, 205 },
-    { 115, 196, 300 },
-    { 157, 172, 245 },
-    { 130, 180, 281 }
-};
-
-//Mostramos el tamaño de la primera dimensión
-Console.WriteLine(ventas2D.GetLength(1));
-
-for (var i = 0; i < ventas2D.GetLength(1); i++)
-{
-    Console.WriteLine($"Flia {i}");
-
-    for (var j = 0; j < ventas2D.GetLength(1); j++)
-    {
-        Console.WriteLine(ventas2D[i, j]);
-    }
+    new[] {12, 23},
+    new[] {15, 30}
 }

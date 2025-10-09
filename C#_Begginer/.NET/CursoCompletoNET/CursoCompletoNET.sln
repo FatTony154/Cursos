@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seccion5Metodos", "Seccion5
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seccion6Matrices", "Seccion6Matrices\Seccion6Matrices.csproj", "{99996389-2B04-4BCB-8D9C-77E2B0DAF42F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seccion7Clases", "Seccion7Clases\Seccion7Clases.csproj", "{678755A0-23CD-4EA3-93FD-12543F09DB54}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{99996389-2B04-4BCB-8D9C-77E2B0DAF42F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{99996389-2B04-4BCB-8D9C-77E2B0DAF42F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{99996389-2B04-4BCB-8D9C-77E2B0DAF42F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{678755A0-23CD-4EA3-93FD-12543F09DB54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{678755A0-23CD-4EA3-93FD-12543F09DB54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{678755A0-23CD-4EA3-93FD-12543F09DB54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{678755A0-23CD-4EA3-93FD-12543F09DB54}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
