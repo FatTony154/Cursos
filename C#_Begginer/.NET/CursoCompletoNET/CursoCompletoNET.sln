@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seccion6Matrices", "Seccion
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seccion7Clases", "Seccion7Clases\Seccion7Clases.csproj", "{678755A0-23CD-4EA3-93FD-12543F09DB54}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seccion8ColeccionesGenericas", "Seccion8ColeccionesGenericas\Seccion8ColeccionesGenericas.csproj", "{99107F31-62E9-4D90-8C63-8C0B334EC54B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{678755A0-23CD-4EA3-93FD-12543F09DB54}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{678755A0-23CD-4EA3-93FD-12543F09DB54}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{678755A0-23CD-4EA3-93FD-12543F09DB54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99107F31-62E9-4D90-8C63-8C0B334EC54B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99107F31-62E9-4D90-8C63-8C0B334EC54B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99107F31-62E9-4D90-8C63-8C0B334EC54B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99107F31-62E9-4D90-8C63-8C0B334EC54B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
